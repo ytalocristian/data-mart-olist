@@ -21,13 +21,20 @@ O dashboard permite responder perguntas como:
 * Faturamento por categoria.
 * Sazonalidade de vendas (evolução temporal).
 * Concentração geográfica de clientes (Mapa de Calor).
+* Permite isolar os dados da região do Sertão do Pajeú.
 
-![Print do Dashboard](docs/painel_print.png) *https://prnt.sc/2Na7DvQGJBF4*
+![Print do Dashboard](docs/painel_print.png) *(https://prnt.sc/yUvMKNf8um7Y)*
 
 ## 📂 Estrutura do Repositório
 * `/etl`: Scripts do Pentaho (.ktr e .kjb).
 * `/sql`: Scripts DDL para criação do banco.
 * `/dashboard`: Arquivo Power BI (.pbix).
+
+### 📍 Destaque: Análise Regional (Sertão do Pajeú - PE)
+Foi implementada uma análise personalizada utilizando **Agrupamento de Dados (Grouping)** no Power BI para isolar a microrregião do Sertão do Pajeú.
+
+* **Objetivo:** Comparar a performance de vendas da região (Serra Talhada, Afogados da Ingazeira, etc.) com o restante do estado e do país.
+* **Insight:** A análise revela o volume exato de vendas desta microrregião, permitindo identificar oportunidades de logística dedicada para o interior de Pernambuco.
 
 ---
 *Autor: Ytalo Cristian*
